@@ -22,9 +22,8 @@ class Animal:
                 f"Health: {self.health}, "
                 f"Hidden: {self.hidden}}}")
 
-    @classmethod
-    def __str__(cls) -> str:
-        return str(cls.alive)
+    def __str__(self) -> str:
+        return str(self.alive)
 
 
 class Herbivore(Animal):

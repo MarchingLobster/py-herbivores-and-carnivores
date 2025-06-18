@@ -23,7 +23,7 @@ class Animal:
                 f"Hidden: {self.hidden}}}")
 
     def __str__(self) -> str:
-        return str(self.alive)
+        return str(self)
 
 
 class Herbivore(Animal):
